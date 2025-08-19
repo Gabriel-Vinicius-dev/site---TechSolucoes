@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+
+header{
+    z-index: 2;
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    border-bottom: 1px solid rgba(127, 255, 212, 0.753);
+    box-shadow: aquamarine 0 10px 50px;
+    height: 10vh;
+    width: 100%;
+}
+
+header h1{
+    font-size: 25px;
+    margin: 0;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header ul li{
+    margin: 0 15px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition:  0.9s;
+
+}
+
+header ul li a:hover{
+    transform: scale(1.05);
+    transition:  0.9s;
+    color: black;
+    border-radius: 15px;
+    background-color: aquamarine;
+    box-shadow: aquamarine 0 0px 50px;
+}
+
+.efect{
+    
+    width: 100%;
+    height: 10vh;
+    box-shadow: aquamarine 0 69px 100px;
+}
+
+
+
+.inicio{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.inicio h2{
+  text-shadow: aquamarine 0 0 20px;
+  font-size: 30px;
+}
+
+.inicio p{
+  text-shadow: aquamarine 0 0 20px;
+  font-size: 20px;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, 192px);
+    place-content: center;
+    gap: 50px;
+    padding: 3%;
+    border: 1px solid aquamarine;
+    height: 10%;
+    transition: 0.5s ease-in-out;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 3%;
+    border: 1px solid aquamarine;
+    height: 10%;
+    transition: 0.5s ease-in-out; */
+}
+
+.produtos:hover{
+    box-shadow: aquamarine 0 0 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.card{
+    background-color: black;
+    border: 1px solid aquamarine;
+    box-shadow: rgb(27, 32, 31) 0 60px 100px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    height: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+    color: white;
+
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px aquamarine;
+    filter: opacity(0.9);
+    z-index: 0;
+}
+
+span{
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.vermais{
+  margin-bottom: 500px;
+  text-align:center;
+  margin:20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #7fffd4;
+    box-shadow: aquamarine 0 0 10px;
+}
+
+footer {
+    background-color: black;
+    border-top: 1px solid aquamarine;
+    padding: 15px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+footer button {
+    padding: 10px 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer button:hover {
+    background-color: #7fffd4;
+    box-shadow: aquamarine 0 0 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
